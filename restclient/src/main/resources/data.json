@@ -1,0 +1,84 @@
+{
+    "Response": {
+      "MetaInfo": {
+        "Timestamp": "2019-01-01T15:13:37.133+0000"
+      },
+      "View": [
+        {
+          "_type": "SearchResultsViewType",
+          "ViewId": 0,
+          "Result": [
+            {
+              "Relevance": 0.99,
+              "MatchLevel": "houseNumber",
+              "MatchQuality": {
+                "Street": [
+                  1
+                ],
+                "HouseNumber": 0.93
+              },
+              "MatchType": "pointAddress",
+              "Location": {
+                "LocationId": "NT_4B5lyifHPwNy1.ZKVvodxD_zgemfC",
+                "LocationType": "point",
+                "DisplayPosition": {
+                  "Latitude": 22.24353,
+                  "Longitude": 114.15811
+                },
+                "NavigationPosition": [
+                  {
+                    "Latitude": 22.24342,
+                    "Longitude": 114.1581
+                  }
+                ],
+                "MapView": {
+                  "TopLeft": {
+                    "Latitude": 22.2446542,
+                    "Longitude": 114.1568955
+                  },
+                  "BottomRight": {
+                    "Latitude": 22.2424058,
+                    "Longitude": 114.1593245
+                  }
+                },
+                "Address": {
+                  "Label": "香港鴨脷洲鴨脷洲徑3號",
+                  "Country": "HKG",
+                  "State": "香港",
+                  "County": "香港",
+                  "City": "南區",
+                  "District": "鴨脷洲",
+                  "Street": "鴨脷洲徑",
+                  "HouseNumber": "3號",
+                  "AdditionalData": [
+                    {
+                      "value": "香港-中國",
+                      "key": "CountryName"
+                    },
+                    {
+                      "value": "香港",
+                      "key": "StateName"
+                    },
+                    {
+                      "value": "香港",
+                      "key": "CountyName"
+                    }
+                  ]
+                }
+              },
+              "AdditionalData": [
+                {
+                  "value": "true",
+                  "key": "houseNumberFallback"
+                },
+                {
+                  "value": "5",
+                  "key": "houseNumberFallbackDifference"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }

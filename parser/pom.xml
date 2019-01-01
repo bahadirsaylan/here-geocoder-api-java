@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.here.geocoder</groupId>
-  <artifactId>restclient</artifactId>
+  <artifactId>parser</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>restclient</name>
+  <name>parser</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -25,19 +25,6 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
-    <dependency>
-      <groupId>org.apache.httpcomponents</groupId>
-      <artifactId>httpclient</artifactId>
-      <version>4.5.6</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.json/json -->
-    <dependency>
-      <groupId>org.json</groupId>
-      <artifactId>json</artifactId>
-      <version>20180130</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk -->
     <dependency>
       <groupId>com.amazonaws</groupId>
       <artifactId>aws-java-sdk</artifactId>
@@ -92,7 +79,7 @@
           <configuration>
             <archive>
               <manifest>
-                <mainClass>com.here.geocoder.App</mainClass>
+                <mainClass>com.here.geocoder.ParserApp</mainClass>
               </manifest>
             </archive>
             <descriptorRefs>
